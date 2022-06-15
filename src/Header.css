@@ -1,0 +1,157 @@
+#navout {
+    min-width: 100%;
+    min-height: 80px;
+    /* border: 1px solid rgb(0, 30, 255); */
+    position: relative;
+    top: 0;
+    background-color: rgb(237, 233, 233);
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 3px #000;
+    /* z-index: 11; */
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 2%; */
+    margin-left: 3%;
+    position: relative;
+    /* border: 1px solid yellow; */
+    color: rgb(237, 93, 93);
+    top: 0;
+    left: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* margin-top: 1%; */
+    /* transform: rotate(-5deg); */
+  }
+  .logo > a img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo > a {
+    text-decoration: none;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(237, 93, 93);
+    text-transform: uppercase;
+    /* border: 1px solid black; */
+  }
+  .logodiv {
+    width: 16%;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* padding-bottom: 2%; */
+    /* height: 100px; */
+    /* float: left; */
+    /* border: 2px solid red; */
+  }
+  
+  #navbar {
+    /* float: left; */
+    width: 70%;
+    height: 100%;
+   
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+  }
+  #navbar > ul {
+    display: block;
+  }
+  .navul li {
+    list-style: none;
+    color: rgb(26, 24, 24);
+    display: inline-block;
+    padding: 10px 15px;
+    /* border: 1px solid red; */
+    margin: 2% 2%;
+  }
+  .navul > li a {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+  }
+  
+  #navbar .navul{
+    display: flex;
+    /* background-color: red; */
+  }
+  .navabtn {
+    text-decoration: none;
+    color: #000;
+    /* background-color: rgb(17, 16, 16); */
+    position: relative;
+    font-size: 1.2em;
+    padding: 10px 5px;
+    font-weight: bold;
+  }
+  .navabtn::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(49, 49, 49);
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  .navabtn:hover::before {
+    transform: scaleX(1);
+  }
+  .rightnav {
+    /* float: right; */
+    width: 10%;
+    height: auto;
+    /* border: 1px solid rgb(0, 0, 0); */
+  }
+  
+  .rightnav > ul {
+    display: block;
+    /* margin-top: -1%; */
+  }
+  .rightul > li a {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 12px;
+  }
+  .rightul > li {
+    list-style: none;
+    color: rgb(26, 24, 24);
+    display: inline-block;
+  
+    /* border: 2px solid red; */
+  }
+  ul > li{
+      list-style: none;
+  }
+.login-div{
+  width: 140px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.btn2{
+  width: 100px;
+  padding: 5px;
+  margin: auto;
+font-size: 1.9rem;
+/* font-weight: bold; */
+outline: none;
+border: 1px solid rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+border-radius: 6px;
+background-color: rgb(119, 103, 243);
+}
+.btn2:hover{
+  background-color: aliceblue;
+  color: #000;
+}

@@ -1,0 +1,150 @@
+.quickSearch{
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+
+#QuickSearchHeading{
+    color:#353332;
+    font-size: 36px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-weight: bold;
+    margin-left:1%;
+    text-align: center;
+    letter-spacing: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    position:absolute;
+    margin-left:1%;
+
+}
+
+.tileContainer{
+    height:180px;
+    width:32%;
+    margin-left:1%;
+    margin-top:5%;
+    display:inline-block;
+    box-shadow: 0px 2px 10px gray;
+}
+
+.tileComponent1{
+    width:45%;
+    float: left;
+}
+
+.tileComponent2{
+    width:52%;
+    height:180px;
+    float: left;
+    margin-top:15%;
+    margin-left:2%;
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:180px;
+}
+
+.componentHeading{
+    color:#1a1818;
+    font-size: 25px;
+}
+
+.componentHeading>a{
+    text-decoration: none;
+    color:#d9713f;
+}
+
+.componentSubHeading{
+    color:#383737;
+    font-size: 15px;
+}
+
+
+.catbox {
+    width: 350px;
+    height: 300px;
+    /* border: 2px solid silver; */
+    background-color: rgb(255, 255, 255);
+  
+    box-shadow:0px 0px 6px rgba(0, 0, 0, 0.645);
+    /* transition: all 0.5s ease-in 0s;  */
+    /* margin-bottom: 2%; */
+    border-radius: 6px;
+    /* border: 5px solid black; */
+  }
+  /* .catbox:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+  } */
+  .catbox:hover{
+    box-shadow: 0px 0px 6px black;
+    text-decoration: none !important;
+  }
+
+  .img > img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .content1 > h3{
+    letter-spacing: 20px;
+    /* padding: 6px; */
+  }
+
+  
+  .catecon {
+    width: 90%;
+    /* height: 100%; */
+    min-height: 700px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    /* flex: 1 1 25%; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    top: 0;
+    left: 0;
+    /* border: 1px solid red; */
+    /* margin-top: 2%; */
+    /* padding-bottom: 2%; */
+  }
+
+  .catbox > .img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .catbox > .content1 {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    top: 0;
+    color: rgb(0, 0, 0);
+    /* padding: 9px; */
+    /* border: 1px solid red; */
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    /* font-size: 0.9rem; */
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
